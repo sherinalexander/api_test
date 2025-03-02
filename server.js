@@ -16,7 +16,13 @@ app.get("/api/hello", (req, res) => {
 
 // Fetch user info
 app.get("/api/user", (req, res) => {
-    res.json({ id: 1, name: "Sherin", role: "Developer" });
+    res.json([
+        { id: 1, name: "Sherin", role: "Developer" },
+        { id: 2, name: "Aswathy", role: "Developer" },
+        { id: 3, name: "Jaisha", role: "Developer" },
+        { id: 4, name: "Andrea", role: "Developer" },
+
+    ]);
 });
 
 // GET request for /api/data (Previously Missing)
