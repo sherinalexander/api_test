@@ -9,7 +9,7 @@ const users = [
     { id: 1, name: "Sherin", role: "Developer" },
     { id: 2, name: "Aswathy", role: "Developer" },
     { id: 3, name: "Jaisha", role: "Developer" },
-    { id: 4, name: "Andrea", role: "Developer" },
+    { id: 4, name: "Andrea", role: "Develope" },
 ];
 
 // Base route
